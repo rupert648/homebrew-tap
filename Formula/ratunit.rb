@@ -7,10 +7,10 @@ class Ratunit < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/rupert648/ratunit/releases/download/v0.1.1/ratunit-aarch64-apple-darwin.tar.gz"
-      sha256 "c624bda15b643de9b3ee81acc26303517ef91d7b463a3629d37fad6141944ee6"
+      sha256 "d911a75128606fb9e306614c440db8f8c4ff7229794f5e1e32e6fe7aaac09ea8"
     else
       url "https://github.com/rupert648/ratunit/releases/download/v0.1.1/ratunit-x86_64-apple-darwin.tar.gz"
-      sha256 "d5a60ccced20bcb09109f83e56c5b0b71d27e74ebc6468c1e9529e8dd85b4c8d"
+      sha256 "78de42c1b7d49ad332d60e774a41f8688f6414baa9d357ec60d07e7acea36c05"
     end
   end
 
